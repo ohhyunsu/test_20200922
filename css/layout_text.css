@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* layout_test.css */
+
+/* wrap------- */
+#wrap { width: 1600px; height: auto; margin:0 auto; padding:0; font-family: sans-serif; text-align:center; font-size:18px; font-weight:bold; }
+
+.clearfix:after,
+.clearfix::after { content: " "; clear:both; display:block;}
+
+h3 { width: 1300px; height: 50px; margin: 0 auto; background-color: aqua; margin-bottom:30px}
+
+/* headBox------------ */
+#headBox { width: 100%; height: 150px; background-color: #6EEDB1; }
+
+.logo { float:left; width: 250px; height: 80px; line-height:80px; background-color: aqua; margin:34px 50px 36px 50px;}
+.gnb { float:left; width: 850px; height: 80px; background-color: aqua; margin:34px 25px 36px 25px}
+.unb { float:left; width: 250px; height: 80px; background-color: aqua; margin:34px 50px 36px 50px}
+
+
+/* 01. adViewBox------------ */
+#adViewBox { width: 100%; height: 750px; background-color: #a4f; }
+.view_outer { display:inline-block; width: 1300px; height: 600px; margin: 28px auto; background-color: aqua; }
+.view_indicater { width: 850px; height: 60px; margin: 0 auto; background-color: #51099C;}
+
+/* 02. locanNavBox----------- */
+#locanNavBox { width: 100%; height: 250px; background-color: #5D24CA; margin-bottom: 50px;}
+.local_nav_outer {display:inline-block; width: 1500px; height: 196px; margin:18px auto;  background-color: aqua;}
+
+/* 03. popularContentBox----------- */
+#popularContentBox { width: 100%; height: 600px; background-color: #C8E0E1;}
+.pop_con_area { display:inline-block; width: 1300px; height: 470px; margin: 0 auto; background-color: aqua;}
+
+/* 04. newContenBox--------- */
+#newContenBox { width: 100%; height: 900px; background-color: #6EEDB1; margin-bottom: 80px;}
+#newContenBox h3 { display:inline-block; margin-top:60px;}
+.new_con_area { display:inline-block; width: 1300px; height: 700px; margin: 0 auto; background-color: aqua;}
+
+
+/* 05. recommendedConttentBox----------- */
+#recommendedConttentBox { width: 100%; height: 600px; background-color: #976B10; margin-bottom: 80px;}
+#recommendedConttentBox h3 { display:inline-block; margin-top:30px;}
+.recom_con_area { display:inline-block; width: 1300px; height: 440px; margin: 0 auto; background-color: aqua;}
+
+
+/* 06. communityBox----------- */
+#communityBox { width: 100%; height: 800px; background-color: #6EEDB1; margin-bottom: 80px;}
+#communityBox h3 { display:inline-block; margin-top:60px;}
+.community_area { display:inline-block; width: 1300px; height: 600px; margin: 0 auto; background-color: aqua;}
+
+
+/* 07. miniAdBox----------- */
+#miniAdBox { width: 100%; height: 400px; background-color: #8D42AC; margin-bottom: 80px;}
+.mini_ad_outer { display:inline-block; width: 1500px; height: 300px; margin: 40px auto; background-color: aqua;}
+
+
+/* 08. footBox----------- */
+#footBox { width: 100%; height: 200px; background-color: #81B34D; }
+.foot_outer { display: inline-block; width: 1300px; height: 140px; margin: 22px auto; background-color: aqua;}
